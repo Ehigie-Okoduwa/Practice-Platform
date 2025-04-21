@@ -1,0 +1,88 @@
+[
+    {
+        "id":1, 
+        "text": "What is the derivative of x^2?", 
+        "type": "multiple-choice", 
+        "options": ["2x", "x", "x^3"], 
+        "answer": "2x", 
+        "topic": "derivatives",
+        "explanation": "The derivative of x^2 is 2x because the power rule states d/dx(x^n) = n*x^(n-1), so for x^2, it’s 2*x^(2-1) = 2x."
+    },
+    {
+        "id": 2, 
+        "text": "Find the integral of 2x dx",
+        "type": "short-answer", 
+        "answer": "x^2 + C", 
+        "topic": "integrals",
+        "explanation": "The integral of 2x dx is x^2 + C because the reverse of the power rule gives x^2, and we add +C for the constant of integration."
+    },
+    {
+        "id": 3,
+        "text": "What is 5 x 3?",
+        "type": "multiple-choice",
+        "options": ["15", "10", "20"],
+        "answer": "15",
+        "topic": "algebra",
+        "explanation": "To find 5 x 3, multiply 5 by 3, which gives 15."
+    },
+    {
+        "id": 4,
+        "text": "Solve 3x = 9",
+        "type": "short-answer",
+        "answer": "3",
+        "topic": "algebra",
+        "explanation": "To solve 3x = 9, divide both sides by 3: 3x / 3 = 9 / 3, so x = 3."
+    },
+    {
+        "id": 5,
+        "text": "What is the capital of France?",
+        "type": "multiple-choice",
+        "options": ["Paris", "London", "Berlin"],
+        "answer": "Paris",
+        "topic": "history",
+        "explanation": "The capital of France is Paris, which has been the capital since the 10th century."
+    },
+    {
+        "id": 6,
+        "text": "Who wrote Romeo and Juliet?",
+        "type": "short-answer",
+        "answer": "Shakespeare",
+        "topic": "history",
+        "explanation": "Romeo and Juliet was written by William Shakespeare, a famous playwright, around 1597."
+    },
+    {
+        "id": 7,
+        "text": "What gas do plants use for photosynthesis?",
+        "type": "multiple-choice",
+        "options": ["Oxygen", "Carbon Dioxide", "Nitrogen"],
+        "answer": "Carbon Dioxide",
+        "topic": "biology",
+        "explanation": "Plants use Carbon Dioxide during photosynthesis to produce glucose, combining it with water using sunlight."
+    },
+    {
+        "id": 8,
+        "text": "Define osmosis",
+        "type": "short-answer",
+        "answer": "Movement of water across a semipermeable membrane",
+        "topic": "biology",
+        "explanation": "Osmosis is the movement of water across a semipermeable membrane from an area of low solute concentration to high solute concentration."
+    },
+    {
+        "id": 9,
+        "text": "What is H2O commonly known as?",
+        "type": "multiple-choice",
+        "options": ["Water", "Salt", "Sugar"],
+        "answer": "Water",
+        "topic": "chemistry",
+        "explanation": "H2O is the chemical formula for water, consisting of two hydrogen atoms and one oxygen atom."
+    },
+    {
+        "id": 10,
+        "text": "What is the square root of 16?",
+        "type": "short-answer",
+        "answer": "4",
+        "topic": "algebra",
+        "explanation": "The square root of 16 is 4 because 4 x 4 = 16."
+    }
+]
+

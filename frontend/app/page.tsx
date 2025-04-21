@@ -14,6 +14,9 @@ export default function Home(){
 
       {/* Form Section */}
       <form className="w-full max-w-md flex flex-col gap-6">
+        <p className="text-black text-sm mb-2">
+          Fill this out for tailored Practice
+        </p>
         <div>
           <label htmlFor="course" className="block text-black text-base mb-1">
             Course Name
@@ -43,9 +46,7 @@ export default function Home(){
           >
             Start Practicing
           </button>
-          <a href="#" className="text-black underline text-sm">
-            Skip
-          </a>
+          
         </div>
       </form>
     </div>

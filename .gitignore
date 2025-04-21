@@ -1,1 +1,10 @@
 node_modules/ 
+
+#Virtual environments
+backend/venv/
+__pycache__/
+*.pyc
+
+# Project documentation
+progress-log.md
+MVPC-Summary.md

@@ -18,20 +18,20 @@
     },
     {
         "id": 3,
-        "text": "What is 5 x 3?",
+        "text": "What is 6 x 4?",
         "type": "multiple-choice",
-        "options": ["15", "10", "20"],
-        "answer": "15",
+        "options": ["24", "18", "30"],
+        "answer": "24",
         "topic": "algebra",
-        "explanation": "To find 5 x 3, multiply 5 by 3, which gives 15."
+        "explanation": "To find 6 x 4, multiply 6 by 4, which gives 24."
     },
     {
         "id": 4,
-        "text": "Solve 3x = 9",
+        "text": "Solve 4x = 16",
         "type": "short-answer",
-        "answer": "3",
+        "answer": "4",
         "topic": "algebra",
-        "explanation": "To solve 3x = 9, divide both sides by 3: 3x / 3 = 9 / 3, so x = 3."
+        "explanation": "To solve 4x = 16, divide both sides by 4: 4x / 4 = 16 / 4, so x = 4."
     },
     {
         "id": 5,
@@ -83,6 +83,361 @@
         "answer": "4",
         "topic": "algebra",
         "explanation": "The square root of 16 is 4 because 4 x 4 = 16."
+    },
+    {
+        "id": 11,
+        "text": "What is the derivative of 4x^2?",
+        "type": "multiple-choice",
+        "options": ["8x", "4x", "x^2"],
+        "answer": "8x",
+        "topic": "calculus",
+        "explanation": "The derivative of 4x^2 is 8x because the power rule states d/dx(x^n) = n*x^(n-1), so for 4x^2, it’s 4 * 2x^(2-1) = 8x."
+    },
+    {
+        "id": 12,
+        "text": "What is the integral of 8x dx?",
+        "type": "multiple-choice",
+        "options": ["4x^2 + C", "8x^2 + C", "2x^3 + C"],
+        "answer": "4x^2 + C",
+        "topic": "calculus",
+        "explanation": "The integral of 8x dx is 4x^2 + C because the reverse of the power rule gives (8/2)x^2 = 4x^2, and we add +C for the constant of integration."
+    },
+    {
+        "id": 13,
+        "text": "What is the derivative of 2x^4?",
+        "type": "multiple-choice",
+        "options": ["8x^3", "2x^3", "4x^3"],
+        "answer": "8x^3",
+        "topic": "calculus",
+        "explanation": "The derivative of 2x^4 is 8x^3 because the power rule gives 2 * 4x^(4-1) = 8x^3."
+    },
+    {
+        "id": 14,
+        "text": "What is the integral of 8 dx?",
+        "type": "multiple-choice",
+        "options": ["8x + C", "4x + C", "x + C"],
+        "answer": "8x + C",
+        "topic": "calculus",
+        "explanation": "The integral of 8 dx is 8x + C because the integral of a constant is the constant times x, plus the constant of integration C."
+    },
+    {
+        "id": 15,
+        "text": "What is the derivative of x^5?",
+        "type": "multiple-choice",
+        "options": ["5x^4", "x^4", "4x^5"],
+        "answer": "5x^4",
+        "topic": "calculus",
+        "explanation": "The derivative of x^5 is 5x^4 because the power rule gives 5x^(5-1) = 5x^4."
+    },
+    {
+        "id": 16,
+        "text": "Find the derivative of 6x^3",
+        "type": "short-answer",
+        "answer": "18x^2",
+        "topic": "calculus",
+        "explanation": "The derivative of 6x^3 is 18x^2 because the power rule gives 6 * 3x^(3-1) = 18x^2."
+    },
+    {
+        "id": 17,
+        "text": "Find the integral of 3x^2 dx",
+        "type": "short-answer",
+        "answer": "x^3 + C",
+        "topic": "calculus",
+        "explanation": "The integral of 3x^2 dx is x^3 + C because the reverse of the power rule gives (3/3)x^3 = x^3, plus the constant of integration C."
+    },
+    {
+        "id": 18,
+        "text": "Find the integral of 10 dx",
+        "type": "short-answer",
+        "answer": "10x + C",
+        "topic": "calculus",
+        "explanation": "The integral of 10 dx is 10x + C because the integral of a constant is the constant times x, plus the constant of integration C."
+    },
+    {
+        "id": 19,
+        "text": "What is 4 x 5?",
+        "type": "multiple-choice",
+        "options": ["20", "15", "25"],
+        "answer": "20",
+        "topic": "algebra",
+        "explanation": "To find 4 x 5, multiply 4 by 5, which gives 20."
+    },
+    {
+        "id": 20,
+        "text": "What is 12 / 3?",
+        "type": "multiple-choice",
+        "options": ["4", "3", "6"],
+        "answer": "4",
+        "topic": "algebra",
+        "explanation": "To find 12 / 3, divide 12 by 3, which gives 4."
+    },
+    {
+        "id": 21,
+        "text": "What is the square of 3?",
+        "type": "multiple-choice",
+        "options": ["9", "6", "12"],
+        "answer": "9",
+        "topic": "algebra",
+        "explanation": "The square of 3 is 3 x 3, which equals 9."
+    },
+    {
+        "id": 22,
+        "text": "What is 7 + 8?",
+        "type": "multiple-choice",
+        "options": ["15", "14", "16"],
+        "answer": "15",
+        "topic": "algebra",
+        "explanation": "To find 7 + 8, add 7 and 8, which gives 15."
+    },
+    {
+        "id": 23,
+        "text": "What is 9 - 4?",
+        "type": "multiple-choice",
+        "options": ["5", "4", "6"],
+        "answer": "5",
+        "topic": "algebra",
+        "explanation": "To find 9 - 4, subtract 4 from 9, which gives 5."
+    },
+    {
+        "id": 24,
+        "text": "Solve 6x = 12",
+        "type": "short-answer",
+        "answer": "2",
+        "topic": "algebra",
+        "explanation": "To solve 6x = 12, divide both sides by 6: 6x / 6 = 12 / 6, so x = 2."
+    },
+    {
+        "id": 25,
+        "text": "What is the square root of 25?",
+        "type": "short-answer",
+        "answer": "5",
+        "topic": "algebra",
+        "explanation": "The square root of 25 is 5 because 5 x 5 = 25."
+    },
+    {
+        "id": 26,
+        "text": "What is the area of a rectangle with length 5 and width 2?",
+        "type": "multiple-choice",
+        "options": ["10", "7", "12"],
+        "answer": "10",
+        "topic": "geometry",
+        "explanation": "The area of a rectangle is length x width, so 5 x 2 = 10."
+    },
+    {
+        "id": 27,
+        "text": "What is the perimeter of a square with side length 5?",
+        "type": "multiple-choice",
+        "options": ["20", "25", "15"],
+        "answer": "20",
+        "topic": "geometry",
+        "explanation": "The perimeter of a square is 4 x side length, so 4 x 5 = 20."
+    },
+    {
+        "id": 28,
+        "text": "What is the area of a triangle with base 8 and height 3?",
+        "type": "multiple-choice",
+        "options": ["12", "24", "15"],
+        "answer": "12",
+        "topic": "geometry",
+        "explanation": "The area of a triangle is (1/2) x base x height, so (1/2) x 8 x 3 = 12."
+    },
+    {
+        "id": 29,
+        "text": "What is the circumference of a circle with radius 3? (Use π = 3.14)",
+        "type": "multiple-choice",
+        "options": ["18.84", "9.42", "12.56"],
+        "answer": "18.84",
+        "topic": "geometry",
+        "explanation": "The circumference of a circle is 2πr, so 2 x 3.14 x 3 = 18.84."
+    },
+    {
+        "id": 30,
+        "text": "What is the area of a circle with radius 4? (Use π = 3.14)",
+        "type": "multiple-choice",
+        "options": ["50.24", "25.12", "12.56"],
+        "answer": "50.24",
+        "topic": "geometry",
+        "explanation": "The area of a circle is πr^2, so 3.14 x 4^2 = 3.14 x 16 = 50.24."
+    },
+    {
+        "id": 31,
+        "text": "How many sides does a hexagon have?",
+        "type": "multiple-choice",
+        "options": ["6", "5", "8"],
+        "answer": "6",
+        "topic": "geometry",
+        "explanation": "A hexagon is a polygon with 6 sides."
+    },
+    {
+        "id": 32,
+        "text": "What is the sum of the interior angles of a triangle?",
+        "type": "multiple-choice",
+        "options": ["180 degrees", "360 degrees", "90 degrees"],
+        "answer": "180 degrees",
+        "topic": "geometry",
+        "explanation": "The sum of the interior angles of a triangle is always 180 degrees."
+    },
+    {
+        "id": 33,
+        "text": "Find the perimeter of a rectangle with length 7 and width 2",
+        "type": "short-answer",
+        "answer": "18",
+        "topic": "geometry",
+        "explanation": "The perimeter of a rectangle is 2(length + width), so 2(7 + 2) = 2 x 9 = 18."
+    },
+    {
+        "id": 34,
+        "text": "Find the area of a triangle with base 8 and height 5",
+        "type": "short-answer",
+        "answer": "20",
+        "topic": "geometry",
+        "explanation": "The area of a triangle is (1/2) x base x height, so (1/2) x 8 x 5 = 20."
+    },
+    {
+        "id": 35,
+        "text": "What is the area of a square with side length 6?",
+        "type": "short-answer",
+        "answer": "36",
+        "topic": "geometry",
+        "explanation": "The area of a square is side length squared, so 6 x 6 = 36."
+    },
+    {
+        "id": 36,
+        "text": "What organelle is known as the powerhouse of the cell?",
+        "type": "multiple-choice",
+        "options": ["Mitochondria", "Nucleus", "Ribosome"],
+        "answer": "Mitochondria",
+        "topic": "biology",
+        "explanation": "The mitochondria is called the powerhouse of the cell because it produces energy (ATP) through cellular respiration."
+    },
+    {
+        "id": 37,
+        "text": "What gas do humans exhale during respiration?",
+        "type": "multiple-choice",
+        "options": ["Carbon Dioxide", "Oxygen", "Nitrogen"],
+        "answer": "Carbon Dioxide",
+        "topic": "biology",
+        "explanation": "Humans exhale Carbon Dioxide as a waste product of cellular respiration."
+    },
+    {
+        "id": 38,
+        "text": "What is the primary source of energy for Earth's climate system?",
+        "type": "multiple-choice",
+        "options": ["The Sun", "The Moon", "Earth's core"],
+        "answer": "The Sun",
+        "topic": "biology",
+        "explanation": "The Sun provides the primary energy for Earth's climate system through solar radiation."
+    },
+    {
+        "id": 39,
+        "text": "Which molecule stores genetic information in cells?",
+        "type": "multiple-choice",
+        "options": ["DNA", "RNA", "Protein"],
+        "answer": "DNA",
+        "topic": "biology",
+        "explanation": "DNA (Deoxyribonucleic Acid) stores genetic information in cells, located in the nucleus."
+    },
+    {
+        "id": 40,
+        "text": "What is the process by which plants make their own food?",
+        "type": "multiple-choice",
+        "options": ["Photosynthesis", "Respiration", "Digestion"],
+        "answer": "Photosynthesis",
+        "topic": "biology",
+        "explanation": "Photosynthesis is the process by which plants use sunlight, water, and carbon dioxide to produce glucose and oxygen."
+    },
+    {
+        "id": 41,
+        "text": "What is the function of the cell membrane?",
+        "type": "short-answer",
+        "answer": "Controls what enters and exits the cell",
+        "topic": "biology",
+        "explanation": "The cell membrane controls what enters and exits the cell, acting as a selective barrier to maintain homeostasis."
+    },
+    {
+        "id": 42,
+        "text": "What is the term for an organism with two identical alleles for a gene?",
+        "type": "short-answer",
+        "answer": "Homozygous",
+        "topic": "biology",
+        "explanation": "An organism with two identical alleles for a gene is called homozygous, such as AA or aa."
+    },
+    {
+        "id": 43,
+        "text": "What gas do plants release during photosynthesis?",
+        "type": "short-answer",
+        "answer": "Oxygen",
+        "topic": "biology",
+        "explanation": "Plants release Oxygen during photosynthesis as a byproduct when they convert carbon dioxide and water into glucose."
+    },
+    {
+        "id": 44,
+        "text": "What year did Christopher Columbus first reach the Americas?",
+        "type": "multiple-choice",
+        "options": ["1492", "1453", "1519"],
+        "answer": "1492",
+        "topic": "history",
+        "explanation": "Christopher Columbus first reached the Americas in 1492, landing in the Bahamas on October 12."
+    },
+    {
+        "id": 45,
+        "text": "Who was the first President of the United States?",
+        "type": "multiple-choice",
+        "options": ["George Washington", "Thomas Jefferson", "Abraham Lincoln"],
+        "answer": "George Washington",
+        "topic": "history",
+        "explanation": "George Washington was the first President of the United States, serving from 1789 to 1797."
+    },
+    {
+        "id": 46,
+        "text": "What event marked the start of World War I?",
+        "type": "multiple-choice",
+        "options": ["Assassination of Archduke Franz Ferdinand", "Sinking of the Titanic", "Russian Revolution"],
+        "answer": "Assassination of Archduke Franz Ferdinand",
+        "topic": "history",
+        "explanation": "The assassination of Archduke Franz Ferdinand in 1914 triggered a series of alliances and conflicts that started World War I."
+    },
+    {
+        "id": 47,
+        "text": "What was the primary cause of the American Civil War?",
+        "type": "multiple-choice",
+        "options": ["Slavery", "Taxation", "Trade disputes"],
+        "answer": "Slavery",
+        "topic": "history",
+        "explanation": "The primary cause of the American Civil War (1861-1865) was disagreements over slavery, particularly its expansion into new territories."
+    },
+    {
+        "id": 48,
+        "text": "What ancient wonder was located in Egypt?",
+        "type": "multiple-choice",
+        "options": ["Great Pyramid of Giza", "Hanging Gardens of Babylon", "Colossus of Rhodes"],
+        "answer": "Great Pyramid of Giza",
+        "topic": "history",
+        "explanation": "The Great Pyramid of Giza, built around 2560 BCE, is one of the Seven Wonders of the Ancient World and is located in Egypt."
+    },
+    {
+        "id": 49,
+        "text": "What year did the Titanic sink?",
+        "type": "short-answer",
+        "answer": "1912",
+        "topic": "history",
+        "explanation": "The Titanic sank on April 15, 1912, after hitting an iceberg on its maiden voyage."
+    },
+    {
+        "id": 50,
+        "text": "Who was the leader of the Soviet Union during World War II?",
+        "type": "short-answer",
+        "answer": "Joseph Stalin",
+        "topic": "history",
+        "explanation": "Joseph Stalin was the leader of the Soviet Union during World War II, from 1924 until his death in 1953."
+    },
+    {
+        "id": 51,
+        "text": "What document declared the American colonies independent from Britain?",
+        "type": "short-answer",
+        "answer": "Declaration of Independence",
+        "topic": "history",
+        "explanation": "The Declaration of Independence, adopted on July 4, 1776, declared the American colonies independent from Britain."
     }
 ]
 
